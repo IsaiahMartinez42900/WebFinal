@@ -1,0 +1,128 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #111;
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  padding: 20px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar h1 {
+  font-family: 'Anton', sans-serif;
+  color: #ffd700;
+  font-size: 1.8rem;
+}
+
+.navbar-right a {
+  color: white;
+  text-decoration: none;
+  margin-left: 30px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar-right a:hover {
+  color: #ffd700;
+}
+
+/* Top Section */
+.top-section {
+  text-align: center;
+  padding: 60px 20px 30px;
+}
+
+.top-section h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 3rem;
+  color: #ffd700;
+}
+
+/* Classes Section */
+.classes-section {
+  padding: 40px 20px;
+}
+
+.classes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.class-card {
+  background-color: #1c1c1c;
+  border: 2px solid #ffd700;
+  border-radius: 10px;
+  padding: 30px;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.class-card:hover {
+  transform: translateY(-10px);
+}
+
+.class-card h2 {
+  font-family: 'Anton', sans-serif;
+  color: #ffd700;
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+}
+
+.class-card p {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.class-card .price {
+  font-size: 1.3rem;
+  color: #00ff88;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+/*.btn {
+  display: inline-block;
+  margin-top: 10px;
+}*/
+
+form {
+	background-color: white;
+	padding: 100px 100px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	width: 100%;
+	max-width: 800px;
+	color: black;
+	min-height: 500px;
+	
+}
+
+
+
+footer {
+  background-color: #222;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #ccc;
+  padding: 10px 0;
+}
